@@ -1,0 +1,40 @@
+@import "variables.styl"
+
+// GENERAL STYLES
+
+body
+	font-family 'Open Sans', sans-serif !important
+
+img
+	width 100%
+
+ul
+	padding 0
+	margin 0
+	li
+		list-style none
+
+// GENERAL CLASS
+
+.reset
+	padding 0
+	margin 0
+.bg
+	&--white
+		background-color $colorWhite
+	&--black
+		background-color $colorBlack
+	&--grayDark
+		background-color $colorGrayDark
+	
+// PERSONALIZED CLASS
+
+.sub-menu
+	background-color $colorWhite
+	&__nav
+		padding 0
+	&__item
+		display inline-block
+		a
+			color $colorBlack
+		
