@@ -1,5 +1,15 @@
 @import "variables.styl"
 
+// MIXINS
+
+background-linear-gradient(startPoint, startColor, startInterval, endColor, endInterval)
+	background-color startColor
+	background-image -webkit-linear-gradient(startPoint, startColor startInterval, endColor endInterval)
+	background-image -moz-linear-gradient(startPoint, startColor startInterval, endColor endInterval)
+	background-image -ms-linear-gradient(startPoint, startColor startInterval, endColor endInterval)
+	background-image -o-linear-gradient(startPoint, startColor startInterval, endColor endInterval)
+	background-image linear-gradient(startPoint, startColor startInterval, endColor endInterval)
+
 // GENERAL STYLES
 
 body
@@ -37,4 +47,18 @@ ul
 		display inline-block
 		a
 			color $colorBlack
+
+.promo
+	&__content
+		background-linear-gradient(top, #FAFAFA, 0%, #F2F2F2, 100%)
+		border 1px solid $colorWhite
+		min-height 250px
+
+// RESET CLASS
+
+.owl-controls		
+	position: absolute;
+	bottom: 10px;
+	left: 47%;
+	
 		
