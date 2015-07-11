@@ -29,6 +29,9 @@ ul
 .reset
 	padding 0
 	margin 0
+.color
+	&--white
+		color $colorWhite
 .bg
 	&--white
 		background-color $colorWhite
@@ -36,11 +39,16 @@ ul
 		background-color $colorBlack
 	&--grayDark
 		background-color $colorGrayDark
+		
 	
 // PERSONALIZED CLASS
 
+.logo
+	width 180px	
+
 .sub-menu
-	background-color $colorWhite
+	padding 10px 0
+	background-color $rgbaWhite
 	&__nav
 		padding 0
 	&__item
@@ -50,9 +58,13 @@ ul
 
 .promo
 	&__content
-		background-linear-gradient(top, #FAFAFA, 0%, #F2F2F2, 100%)
+		background-linear-gradient(top, #FAFAFA, 40%, #F2F2F2, 100%)
 		border 1px solid $colorWhite
 		min-height 250px
+
+.grid
+	&__content
+		min-height 300px
 
 // RESET CLASS
 

@@ -15,6 +15,9 @@ ul li {
   padding: 0;
   margin: 0;
 }
+.color--white {
+  color: #fff;
+}
 .bg--white {
   background-color: #fff;
 }
@@ -24,8 +27,12 @@ ul li {
 .bg--grayDark {
   background-color: #222;
 }
+.logo {
+  width: 180px;
+}
 .sub-menu {
-  background-color: #fff;
+  padding: 10px 0;
+  background-color: $rgbaWhite;
 }
 .sub-menu__nav {
   padding: 0;
@@ -38,13 +45,16 @@ ul li {
 }
 .promo__content {
   background-color: #fafafa;
-  background-image: -webkit-linear-gradient(top, #fafafa 0%, #f2f2f2 100%);
-  background-image: -moz-linear-gradient(top, #fafafa 0%, #f2f2f2 100%);
-  background-image: -ms-linear-gradient(top, #fafafa 0%, #f2f2f2 100%);
-  background-image: -o-linear-gradient(top, #fafafa 0%, #f2f2f2 100%);
-  background-image: linear-gradient(top, #fafafa 0%, #f2f2f2 100%);
+  background-image: -webkit-linear-gradient(top, #fafafa 40%, #f2f2f2 100%);
+  background-image: -moz-linear-gradient(top, #fafafa 40%, #f2f2f2 100%);
+  background-image: -ms-linear-gradient(top, #fafafa 40%, #f2f2f2 100%);
+  background-image: -o-linear-gradient(top, #fafafa 40%, #f2f2f2 100%);
+  background-image: linear-gradient(top, #fafafa 40%, #f2f2f2 100%);
   border: 1px solid #fff;
   min-height: 250px;
+}
+.grid__content {
+  min-height: 300px;
 }
 .owl-controls {
   position: absolute;

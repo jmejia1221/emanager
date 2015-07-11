@@ -31,13 +31,13 @@ Main Components
 
 -------------------------------- */
 header {
-  position: fixed;
+  position: absolute;
   z-index: 3;
   height: 50px;
   width: 100%;
   top: 0;
   left: 0;
-  background-color: #33414a;
+  background-color: rgba(0,0,0,.8);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* Force Hardware Acceleration */
@@ -102,6 +102,7 @@ header::before {
   .cd-logo {
     position: absolute;
     z-index: 2;
+    top: -10px;
     margin-left: 5%;
   }
   .cd-logo img {
@@ -384,7 +385,7 @@ header::before {
   }
   .cd-main-nav li ul {
     height: 80px;
-    background-color: #7e4d7e;
+    background-color: #222;
     /* padding left = logo size + logo left position*/
     padding: 0 5% 0 calc(5% + 124px);
     -webkit-transform: translateY(-80px);
