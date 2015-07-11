@@ -54,6 +54,9 @@ a:hover {
   color: #fff;
   text-decoration: underline;
 }
+.title--minismall {
+  font-size: 0.9em;
+}
 .title--small {
   font-size: 1.5em;
 }
@@ -68,6 +71,12 @@ a:hover {
 }
 .title--bold {
   font-weight: 600;
+}
+.title--white {
+  color: #fff;
+}
+.title--grayDark {
+  color: $grayDark;
 }
 .padding--tb {
   padding: 30px 0;
@@ -141,6 +150,14 @@ a:hover {
 }
 .sub-menu__item--contact a:hover {
   text-decoration: none;
+}
+.slide {
+  position: relative;
+}
+.slide .info-slide {
+  position: absolute;
+  left: 22vw;
+  top: 25vh;
 }
 .main-info__article {
   padding: 20px 30px 40px 30px;

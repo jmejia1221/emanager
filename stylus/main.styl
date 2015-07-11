@@ -64,6 +64,8 @@ a
 				color $colorWhite
 				text-decoration underline
 .title
+	&--minismall
+		font-size .9em
 	&--small
 		font-size 1.5em
 	&--medium
@@ -74,6 +76,10 @@ a
 		font-weight 300
 	&--bold
 		font-weight 600
+	&--white
+		color $colorWhite
+	&--grayDark
+		color $grayDark
 .padding
 	&--tb
 		padding 30px 0
@@ -130,6 +136,12 @@ a
 				color $colorWhite
 				&:hover
 					text-decoration none
+.slide
+	position relative
+	.info-slide
+		position absolute
+		left 22vw
+		top 25vh
 
 .main-info
 	&__article
