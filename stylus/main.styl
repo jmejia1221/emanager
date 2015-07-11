@@ -24,21 +24,50 @@ ul
 	li
 		list-style none
 
+a
+	&:hover
+		text-decoration none
+
 // GENERAL CLASS
 
 .reset
 	padding 0
 	margin 0
+.btn
+	&__general
+		color $colorGrayDark
+		border 2px solid $colorGrayDark
+		padding 5px 25px
+		transition all .5s
+		&:hover
+			color $colorWhite
+			background-color $colorGrayDark
+			transition all .5s
+		&--white
+			color $colorWhite
+			border 2px solid $colorWhite
+			padding 5px 25px
+			transition all .5s
+			&:hover
+				color $colorGrayDark
+				background-color $colorWhite
+				transition all .5s
 .color
 	&--white
 		color $colorWhite
 .bg
+	bacground-position center
+	background-size cover
 	&--white
 		background-color $colorWhite
 	&--black
 		background-color $colorBlack
 	&--grayDark
 		background-color $colorGrayDark
+	&--decide
+		background-image url('../../images/promo1.jpg')
+	&--sostenible
+		background-image url('../../images/promo2.jpg')
 		
 	
 // PERSONALIZED CLASS
@@ -55,6 +84,13 @@ ul
 		display inline-block
 		a
 			color $colorBlack
+
+.slogan
+	&__promo
+		padding 30px 80px
+		color $colorWhite
+		font-size 2em
+		font-weight 300
 
 .promo
 	&__content
