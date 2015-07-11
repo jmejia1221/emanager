@@ -39,6 +39,7 @@ a
 		border 2px solid $colorGrayDark
 		padding 5px 25px
 		transition all .5s
+		display inline-block
 		&:hover
 			color $colorWhite
 			background-color $colorGrayDark
@@ -48,10 +49,31 @@ a
 			border 2px solid $colorWhite
 			padding 5px 25px
 			transition all .5s
+			display inline-block
 			&:hover
 				color $colorGrayDark
 				background-color $colorWhite
 				transition all .5s
+	&__link
+		text-decoration underline
+		&--white
+			color $colorWhite
+			font-weight 400
+			text-decoration underline
+			&:hover
+				color $colorWhite
+				text-decoration underline
+.title
+	&--bold
+		font-weight 600
+.margin
+	&__top
+		&--10
+			margin-top 10px
+		&--20
+			margin-top 20px
+		&--30
+			margin-top 30px
 .color
 	&--white
 		color $colorWhite
@@ -85,9 +107,13 @@ a
 		a
 			color $colorBlack
 
+.main-info
+	&__article
+		padding 20px 30px 40px 30px
+
 .slogan
 	&__promo
-		padding 30px 80px
+		padding 70px 80px
 		color $colorWhite
 		font-size 2em
 		font-weight 300

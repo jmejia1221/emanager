@@ -23,6 +23,7 @@ a:hover {
   border: 2px solid #222;
   padding: 5px 25px;
   transition: all 0.5s;
+  display: inline-block;
 }
 .btn__general:hover {
   color: #fff;
@@ -34,11 +35,36 @@ a:hover {
   border: 2px solid #fff;
   padding: 5px 25px;
   transition: all 0.5s;
+  display: inline-block;
 }
 .btn__general--white:hover {
   color: #222;
   background-color: #fff;
   transition: all 0.5s;
+}
+.btn__link {
+  text-decoration: underline;
+}
+.btn__link--white {
+  color: #fff;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.btn__link--white:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+.title--bold {
+  font-weight: 600;
+}
+.margin__top--10 {
+  margin-top: 10px;
+}
+.margin__top--20 {
+  margin-top: 20px;
+}
+.margin__top--30 {
+  margin-top: 30px;
 }
 .color--white {
   color: #fff;
@@ -78,8 +104,11 @@ a:hover {
 .sub-menu__item a {
   color: #000;
 }
+.main-info__article {
+  padding: 20px 30px 40px 30px;
+}
 .slogan__promo {
-  padding: 30px 80px;
+  padding: 70px 80px;
   color: #fff;
   font-size: 2em;
   font-weight: 300;
