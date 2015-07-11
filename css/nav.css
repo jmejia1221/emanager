@@ -202,7 +202,7 @@ header::before {
   overflow: auto;
   -webkit-overflow-scrolling: touch;
   visibility: hidden;
-  background: #1e262c;
+  background: #222;
   -webkit-transition: visibility 0s 0.3s;
   -moz-transition: visibility 0s 0.3s;
   transition: visibility 0s 0.3s;
@@ -478,8 +478,8 @@ header::before {
 .cd-main-content {
   position: relative;
   z-index: 2;
-  min-height: 100vh;
-  padding-top: 50px;
+  /*min-height: 100vh;*/
+  /*padding-top: 50px;*/
   background-color: #f2f2f2;
   -webkit-transition: -webkit-transform 0.3s;
   -moz-transition: -moz-transform 0.3s;
@@ -494,7 +494,7 @@ header::before {
 }
 @media only screen and (min-width: 1024px) {
   .cd-main-content {
-    padding-top: 80px;
+    /*padding-top: 80px;*/
   }
   .cd-main-content.nav-is-visible {
     -webkit-transform: translateX(0);
