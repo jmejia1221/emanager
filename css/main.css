@@ -54,8 +54,26 @@ a:hover {
   color: #fff;
   text-decoration: underline;
 }
+.title--small {
+  font-size: 1.5em;
+}
+.title--medium {
+  font-size: 2em;
+}
+.title--big {
+  font-size: 3em;
+}
+.title--sinbold {
+  font-weight: 300;
+}
 .title--bold {
   font-weight: 600;
+}
+.padding--tb {
+  padding: 30px 0;
+}
+.padding--all {
+  padding: 30px;
 }
 .margin__top--10 {
   margin-top: 10px;
