@@ -93,19 +93,43 @@ a:hover {
 }
 .sub-menu {
   padding: 10px 0;
-  background-color: $rgbaWhite;
+  background-color: rgba(255,255,255,0.8);
+  font-weight: 300;
 }
 .sub-menu__nav {
   padding: 0;
 }
 .sub-menu__item {
+  padding: 3px 15px;
   display: inline-block;
 }
 .sub-menu__item a {
   color: #000;
 }
+.sub-menu__item a:hover {
+  text-decoration: underline;
+}
+.sub-menu__item--contact {
+  border-radius: 5px;
+  background-color: #2663b5;
+  background-image: -webkit-linear-gradient(top, #2663b5 50%, #115baf 40%);
+  background-image: -moz-linear-gradient(top, #2663b5 50%, #115baf 40%);
+  background-image: -ms-linear-gradient(top, #2663b5 50%, #115baf 40%);
+  background-image: -o-linear-gradient(top, #2663b5 50%, #115baf 40%);
+  background-image: linear-gradient(top, #2663b5 50%, #115baf 40%);
+}
+.sub-menu__item--contact a {
+  color: #fff;
+}
+.sub-menu__item--contact a:hover {
+  text-decoration: none;
+}
 .main-info__article {
   padding: 20px 30px 40px 30px;
+}
+.group-btn {
+  font-size: 1.5em;
+  margin: 40px 0 10px 0;
 }
 .slogan__promo {
   padding: 70px 80px;

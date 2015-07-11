@@ -100,16 +100,31 @@ a
 .sub-menu
 	padding 10px 0
 	background-color $rgbaWhite
+	font-weight 300
 	&__nav
 		padding 0
 	&__item
+		padding 3px 15px
 		display inline-block
 		a
 			color $colorBlack
+			&:hover
+				text-decoration underline
+		&--contact
+			border-radius 5px
+			background-linear-gradient(top, #2663b5, 50%, #115baf, 40%)
+			a
+				color $colorWhite
+				&:hover
+					text-decoration none
 
 .main-info
 	&__article
 		padding 20px 30px 40px 30px
+
+.group-btn
+	font-size 1.5em
+	margin 40px 0 10px 0
 
 .slogan
 	&__promo
