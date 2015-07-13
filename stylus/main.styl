@@ -28,6 +28,10 @@ a
 	&:hover
 		text-decoration none
 
+@media (max-width: 600px)
+	h1
+		font-size 1.3em
+
 // GENERAL CLASS
 
 .reset
@@ -80,6 +84,16 @@ a
 		color $colorWhite
 	&--grayDark
 		color $grayDark
+@media (max-width: 600px)
+	.title
+		&--minismall
+		font-size .7em
+		&--small
+			font-size 1em
+		&--medium
+			font-size 1.5em
+		&--big
+			font-size 1.8em
 .padding
 	&--tb
 		padding 30px 0
@@ -136,16 +150,42 @@ a
 				color $colorWhite
 				&:hover
 					text-decoration none
+@media (max-width: 600px)
+	.sub-menu
+		display none
+		
 .slide
 	position relative
 	.info-slide
 		position absolute
 		left 22vw
 		top 25vh
+.offert
+	padding 100px 0
+
+.text
+	&--borderW
+		border-bottom 1px solid $colorWhite
+		padding-bottom 15px
+	&--borderG
+		border-bottom 1px solid $colorGrayDark
+		padding-bottom 15px
 
 .main-info
 	&__article
 		padding 20px 30px 40px 30px
+		&--padding-60
+			padding 60px 0
+	&__parrafo
+		padding 20px 100px
+@media (max-width: 600px)
+	.main-info
+		&__article
+			padding 20px 30px 40px 30px
+			&--padding-60
+				padding 30px 0
+		&__parrafo
+			padding 5px 10px
 
 .group-btn
 	font-size 1.5em
@@ -157,6 +197,13 @@ a
 		color $colorWhite
 		font-size 2em
 		font-weight 300
+@media (max-width: 600px)
+	.slogan
+		&__promo
+			padding 20px 5px
+			color $colorWhite
+			font-size 1em
+			font-weight 300
 
 .promo
 	&__content
