@@ -18,6 +18,9 @@ a:hover {
   h1 {
     font-size: 1.3em;
   }
+  h4 {
+    margin: 10px 0 0;
+  }
 }
 .reset {
   padding: 0;
@@ -47,17 +50,25 @@ a:hover {
   background-color: #fff;
   transition: all 0.5s;
 }
-.btn__link {
-  text-decoration: underline;
-}
-.btn__link--white {
-  color: #fff;
-  font-weight: 400;
-  text-decoration: underline;
-}
-.btn__link--white:hover {
-  color: #fff;
-  text-decoration: underline;
+@media (max-width: 600px) {
+  .btn__general {
+    font-size: 1em !important;
+  }
+  .btn__general--white {
+    font-size: 1em !important;
+  }
+  __link {
+    text-decoration: underline;
+  }
+  __link--white {
+    color: #fff;
+    font-weight: 400;
+    text-decoration: underline;
+  }
+  __link--white:hover {
+    color: #fff;
+    text-decoration: underline;
+  }
 }
 .title--minismall {
   font-size: 0.9em;
@@ -90,7 +101,7 @@ a:hover {
     font-size: 1em;
   }
   .title--medium {
-    font-size: 1.5em;
+    font-size: 1.3em;
   }
   .title--big {
     font-size: 1.8em;
@@ -110,6 +121,14 @@ a:hover {
 }
 .margin__top--30 {
   margin-top: 30px;
+}
+.margin__top--100 {
+  margin-top: 120px;
+}
+@media (max-width: 600px) {
+  .cd-main-content {
+    margin-top: 80px !important;
+  }
 }
 .color--white {
   color: #fff;
@@ -181,6 +200,16 @@ a:hover {
   position: absolute;
   left: 22vw;
   top: 25vh;
+}
+@media (max-width: 600px) {
+  .slide {
+    position: relative;
+  }
+  .slide .info-slide {
+    position: absolute;
+    left: 0vw;
+    top: 0vh;
+  }
 }
 .offert {
   padding: 100px 0;

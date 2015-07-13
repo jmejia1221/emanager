@@ -35,7 +35,14 @@ Main Components
   width: 100vw;
   position: relative;
   overflow-x: hidden;
+  margin-top: 80px;
   -webkit-overflow-scrolling: touch;
+}
+
+@media (max-width: 600px){
+  .projects-container {
+    width: 96vw;
+  }
 }
 .projects-container::before {
   /* never visible - this is used in jQuery to check the current MQ */

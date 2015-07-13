@@ -31,6 +31,8 @@ a
 @media (max-width: 600px)
 	h1
 		font-size 1.3em
+	h4
+		margin 10px 0 0
 
 // GENERAL CLASS
 
@@ -58,6 +60,14 @@ a
 				color $colorGrayDark
 				background-color $colorWhite
 				transition all .5s
+@media (max-width:600px)
+	.btn
+		&__general
+			font-size 1em !important
+
+			&--white
+				font-size 1em !important
+
 	&__link
 		text-decoration underline
 		&--white
@@ -91,7 +101,7 @@ a
 		&--small
 			font-size 1em
 		&--medium
-			font-size 1.5em
+			font-size 1.3em
 		&--big
 			font-size 1.8em
 .padding
@@ -107,6 +117,12 @@ a
 			margin-top 20px
 		&--30
 			margin-top 30px
+		&--100
+			margin-top 120px
+@media (max-width: 600px)
+	.cd-main-content
+		margin-top 80px !important
+
 .color
 	&--white
 		color $colorWhite
@@ -160,6 +176,13 @@ a
 		position absolute
 		left 22vw
 		top 25vh
+@media (max-width: 600px)
+	.slide
+		position relative
+		.info-slide
+			position absolute
+			left 0vw
+			top 0vh
 .offert
 	padding 100px 0
 
