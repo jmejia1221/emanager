@@ -75,7 +75,7 @@ Main Components
   left: 0;
   height: 25vh;
   width: 100%;
-  background-image: url("../images/img-1-small.jpg");
+  background-image: url("../images/sketchGeneradoor.jpg.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -85,7 +85,7 @@ Main Components
 }
 .projects-container .cd-single-project::before {
   /* never visible - this is used in jQuery to detect if the background image has been loaded  */
-  content: 'images/img-1-small.jpg';
+  content: 'images/sketchGeneradoor.jpg.jpg';
   display: none;
 }
 .projects-container .cd-single-project:nth-of-type(2) {
@@ -155,20 +155,20 @@ Main Components
     transition: width 0s;
   }
   .projects-container .cd-single-project:first-of-type::before {
-    content: 'images/img-1-large.jpg';
+    content: 'images/sketchGeneradoor.jpg';
   }
   .projects-container .cd-single-project:first-of-type::after {
-    background-image: url("../images/img-1-large.jpg");
+    background-image: url("../images/sketchGeneradoor.jpg");
   }
   .projects-container .cd-single-project:nth-of-type(2) {
     top: 0;
     left: 50vw;
   }
   .projects-container .cd-single-project:nth-of-type(2)::before {
-    content: 'images/img-2-large.jpg';
+    content: 'images/slide-emanagerled.jpg';
   }
   .projects-container .cd-single-project:nth-of-type(2)::after {
-    background-image: url("../images/img-2-large.jpg");
+    background-image: url("../images/slide-emanagerled.jpg");
   }
   .projects-container .cd-single-project:nth-of-type(3) {
     top: 0;
