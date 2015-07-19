@@ -50,6 +50,18 @@ a:hover {
   background-color: #fff;
   transition: all 0.5s;
 }
+.btn__link {
+  text-decoration: underline;
+}
+.btn__link--white {
+  color: #fff;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.btn__link--white:hover {
+  color: #fff;
+  text-decoration: underline;
+}
 @media (max-width: 600px) {
   .btn__general {
     font-size: 1em !important;
@@ -57,29 +69,39 @@ a:hover {
   .btn__general--white {
     font-size: 1em !important;
   }
-  __link {
-    text-decoration: underline;
-  }
-  __link--white {
-    color: #fff;
-    font-weight: 400;
-    text-decoration: underline;
-  }
-  __link--white:hover {
-    color: #fff;
-    text-decoration: underline;
-  }
 }
 .link--absolute {
   text-transform: uppercase;
   background-color: rgba(0,0,0,0.5);
   position: absolute;
   color: #fff;
-  padding: 40px 20px;
+  padding: 15% 15% 0;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
+  transition: all 0.5s;
+}
+.link--absolute > h3 {
+  font-size: 35px;
+  font-weight: bold;
+}
+.link--absolute:hover {
+  color: #222;
+  background-color: rgba(255,255,255,0.8);
+  transition: all 0.5s;
+}
+.link--absolute:hover .more {
+  border: 1px solid #222;
+}
+.link--promos {
+  color: #222;
+}
+.link--promos > h3 {
+  font-weight: 600;
+}
+.link--promos:hover {
+  color: #222;
 }
 .title--minismall {
   font-size: 0.9em;
@@ -223,7 +245,7 @@ a:hover {
   }
 }
 .offert {
-  padding: 70px 0;
+  padding: 40px 0px 80px;
 }
 .text--borderW {
   border-bottom: 1px solid #fff;
@@ -289,7 +311,7 @@ a:hover {
   background-color: #fff;
 }
 .promo__content--bg2 {
-  background-image: url("../../images/promo1.jpg");
+  background-image: url("../../images/saving.jpg");
   background-color: #222;
 }
 .promo__content--bg3 {
@@ -304,7 +326,39 @@ a:hover {
   max-width: 190px;
 }
 .grid__content {
-  min-height: 300px;
+  max-height: 300px;
+}
+.grid__more {
+  position: relative;
+  bacground-position: center;
+  background-size: cover;
+  background-color: #fff;
+  display: block;
+  min-height: 290px;
+}
+.grid__more--design {
+  background-image: url("../../images/soporteElise.jpg");
+}
+.grid__more--print {
+  background-image: url("../../images/impresion2.png");
+}
+.grid__more--printer {
+  background-image: url("../../images/impresoras.jpg");
+}
+.grid__more--materials {
+  background-image: url("../../images/materials.png");
+}
+.more {
+  border-radius: 50%;
+  padding: 15px;
+  border: 1px solid #fff;
+}
+.contact__footer {
+  color: #1d3783;
+  font-weight: 700;
+}
+.contact__footer:hover {
+  text-decoration: underline;
 }
 .owl-controls {
   position: absolute;

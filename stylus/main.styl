@@ -60,6 +60,15 @@ a
 				color $colorGrayDark
 				background-color $colorWhite
 				transition all .5s
+	&__link
+			text-decoration underline
+			&--white
+				color $colorWhite
+				font-weight 400
+				text-decoration underline
+				&:hover
+					color $colorWhite
+					text-decoration underline
 @media (max-width:600px)
 	.btn
 		&__general
@@ -67,27 +76,33 @@ a
 
 			&--white
 				font-size 1em !important
-
-	&__link
-		text-decoration underline
-		&--white
-			color $colorWhite
-			font-weight 400
-			text-decoration underline
-			&:hover
-				color $colorWhite
-				text-decoration underline
 .link
 	&--absolute
 		text-transform uppercase
 		background-color $rgbaBlack
 		position absolute
 		color $colorWhite
-		padding 40px 20px
+		padding 15% 15% 0
 		top 0
 		left 0
 		right 0
 		bottom 0
+		transition all .5s
+		> h3
+			font-size 35px
+			font-weight bold
+		&:hover
+			color $colorGrayDark
+			background-color $rgbaWhite
+			transition all .5s
+			.more
+				border 1px solid $colorGrayDark
+	&--promos
+		color $colorGrayDark
+		> h3
+			font-weight 600
+		&:hover
+			color $colorGrayDark
 .title
 	&--minismall
 		font-size .9em
@@ -195,7 +210,7 @@ a
 			left 0vw
 			top 0vh
 .offert
-	padding 70px 0
+	padding 40px 0px 80px
 
 .text
 	&--borderW
@@ -251,7 +266,7 @@ a
 		&--bg1
 			background-color $colorWhite
 		&--bg2
-			background-image url('../../images/promo1.jpg')
+			background-image url('../../images/saving.jpg')
 			background-color $colorGrayDark
 		&--bg3
 			background-image url('../../images/blog.png')
@@ -264,7 +279,32 @@ a
 
 .grid
 	&__content
-		min-height 300px
+		max-height 300px
+	&__more
+		position relative
+		bacground-position center
+		background-size cover
+		background-color $colorWhite
+		display block 
+		min-height 290px
+		&--design
+			background-image url('../../images/soporteElise.jpg')
+		&--print
+			background-image url('../../images/impresion2.png')
+		&--printer
+			background-image url('../../images/impresoras.jpg')
+		&--materials
+			background-image url('../../images/materials.png')
+.more
+	border-radius 50%
+	padding 15px;
+	border 1px solid $colorWhite
+.contact
+	&__footer
+		color $colorBlue
+		font-weight 700
+		&:hover
+			text-decoration underline
 
 // RESET CLASS
 
