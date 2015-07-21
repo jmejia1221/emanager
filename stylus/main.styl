@@ -60,6 +60,17 @@ a
 				color $colorGrayDark
 				background-color $colorWhite
 				transition all .5s
+		&--blue
+			color $colorWhite
+			border 2px solid $colorBlue
+			padding 5px 25px
+			transition all .5s
+			display inline-block
+			background-color $colorBlue
+			&:hover
+				color $colorWhite
+				background-color $colorBlueLight
+				transition all .5s
 	&__link
 			text-decoration underline
 			&--white
@@ -135,6 +146,8 @@ a
 		padding 30px 0
 	&--all
 		padding 30px
+	&--title
+		padding 15px 0
 .margin
 	&__top
 		&--10
@@ -146,6 +159,16 @@ a
 		&--100
 			margin-top 120px
 @media (max-width: 600px)
+	.margin
+		&__top
+			&--10
+				margin-top 10px
+			&--20
+				margin-top 20px
+			&--30
+				margin-top 30px
+			&--100
+				margin-top 80px
 	.cd-main-content
 		margin-top 80px !important
 
@@ -161,6 +184,8 @@ a
 		background-color $colorBlack
 	&--grayDark
 		background-color $colorGrayDark
+	&--grayLight
+		background-color $colorGrayLight
 	&--decide
 		background-image url('../../images/promo1.jpg')
 	&--sostenible
@@ -210,7 +235,26 @@ a
 			left 0vw
 			top 0vh
 .offert
-	padding 40px 0px 80px
+	padding 40px 0px 60px
+
+.impresora
+	&__info
+		margin-top 160px
+
+@media (max-width: 900px)
+	.impresora
+		&__info
+			text-align center
+			margin-top 10px
+
+.materials
+	&__item
+		padding 4% 2.5%
+		transition all .5s
+		&:hover
+			box-shadow 2px 2px 2px #ccc
+			background-color $colorWhite
+			transition all .5s
 
 .text
 	&--borderW
