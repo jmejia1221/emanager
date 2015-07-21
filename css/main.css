@@ -50,6 +50,19 @@ a:hover {
   background-color: #fff;
   transition: all 0.5s;
 }
+.btn__general--blue {
+  color: #fff;
+  border: 2px solid #0053ad;
+  padding: 5px 25px;
+  transition: all 0.5s;
+  display: inline-block;
+  background-color: #0053ad;
+}
+.btn__general--blue:hover {
+  color: #fff;
+  background-color: #2663b5;
+  transition: all 0.5s;
+}
 .btn__link {
   text-decoration: underline;
 }
@@ -146,6 +159,9 @@ a:hover {
 .padding--all {
   padding: 30px;
 }
+.padding--title {
+  padding: 15px 0;
+}
 .margin__top--10 {
   margin-top: 10px;
 }
@@ -178,6 +194,9 @@ a:hover {
 }
 .bg--grayDark {
   background-color: #222;
+}
+.bg--grayLight {
+  background-color: #f2f2f2;
 }
 .bg--decide {
   background-image: url("../../images/promo1.jpg");
@@ -245,7 +264,16 @@ a:hover {
   }
 }
 .offert {
-  padding: 40px 0px 80px;
+  padding: 40px 0px 60px;
+}
+.materials__item {
+  padding: 4% 2.5%;
+  transition: all 0.5s;
+}
+.materials__item:hover {
+  box-shadow: 2px 2px 2px #ccc;
+  background-color: #fff;
+  transition: all 0.5s;
 }
 .text--borderW {
   border-bottom: 1px solid #fff;
@@ -354,7 +382,7 @@ a:hover {
   border: 1px solid #fff;
 }
 .contact__footer {
-  color: #1d3783;
+  color: #0053ad;
   font-weight: 700;
 }
 .contact__footer:hover {
