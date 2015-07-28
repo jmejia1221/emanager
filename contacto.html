@@ -72,10 +72,56 @@
 	</header>
 	
 	<section class="cd-main-content">
-		
+		<div class="container">
+			<div class="row margin__top--100">
+				<div class="col-md-8">
+					<form method="POST" action="gracias.php">
+							<h2>Contáctanos</h2>
+						  <select class="general__input">
+						      <option>General</option>
+						      <option>Ventas</option>
+						      <option>Soporte</option>
+						      <option>Inversores</option>
+						      <option>Flashlight</option>
+						      <option>Toilet Paper</option>
+						  </select>
+						  <div>
+						  	<input class="general__input" type="text" name="name" placeholder="Nombre">
+						  </div>
+						  <div>
+						  	<input class="general__input" type="tel" name="telefono" placeholder="Teléfono">
+						  </div>
+						  <div>
+						  	<input class="general__input" type="email" name="email" placeholder="Email">
+						  </div>
+						  <div>
+						  	<textarea class="general__input" name="" id="" cols="30" rows="5" placeholder="Mensaje"></textarea>
+						  </div>
+						  <div>
+						  	<button class="btn btn-primary btn-block" type="submit">Enviar</button>
+						  </div>
+					</form>
+				</div>
+				<div class="col-md-4">
+					<h1>Mauricio Hidalgo</h1>
+					<h2>Ingeniero de Proyectos</h2>
+					<p>mhidalgo@e-manager.com.co</p>
+					<p>(+57) 321 783 45 70</p>
+				</div>
+			</div>
+		</div>
 	</section>
 
+	<!-- FOOTER -->
+
+	<footer class="bg--white">
+		<div class="container-fluid padding--all title--minismall">
+			<p class="text-left">Copyright © 2015 E-Manager S.A.S. All rights reserved. <a class="contact__footer" href="contacto.html">Contáctenos</a></p>
+		</div>
+	</footer>
+
 	<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script src="css/bootstrap/js/bootstrap.min.js"></script>
 	<script src="js/main.js"></script>	
 </body>
 </html>

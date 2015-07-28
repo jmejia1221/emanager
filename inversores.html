@@ -55,7 +55,7 @@
 		<div class="sub-menu clearfix bg-rgba--white">
 			<div class="container">
 				<div class="name-logo pull-left">
-					<h2 class="reset">Contacto para inversores</h2>
+					<h2 class="reset">Inversores</h2>
 				</div>
 				<nav class="sub-menu__nav pull-right">
 					<ul>
@@ -71,28 +71,37 @@
 		</div>
 	</header>
 	
-	<section class="cd-main-content margin__top--100">
+	<section class="cd-main-content">
 		<div class="container">
-			<div class="row">
-				<div class="col-md-9">
-					<form action="">
-						<div>
-							<input placeholder="Asunto" type="text">
-						</div>
-						<div>
-							<input placeholder="Nombre" type="text">
-						</div>
-						<div>
-							<input placeholder="Celular/Teléfono" type="tel">
-						</div>
-						<div>
-							<input placeholder="E-mail" type="email">
-						</div>
-						<div>
-							<textarea placeholder="Mensaje" name="" id="" cols="30" rows="10"></textarea>
-						</div>
-
+			<div class="row margin__top--100">
+				<div class="col-md-8">
+					<form method="POST" action="gracias.php">
+							<h2>Contacto para inversores</h2>
+						  <div>
+						  	<input class="general__input" type="text" name="asunto" placeholder="Asunto">
+						  </div>
+						  <div>
+						  	<input class="general__input" type="text" name="name" placeholder="Nombre">
+						  </div>
+						  <div>
+						  	<input class="general__input" type="tel" name="telefono" placeholder="Teléfono/Celular">
+						  </div>
+						  <div>
+						  	<input class="general__input" type="email" name="email" placeholder="Email">
+						  </div>
+						  <div>
+						  	<textarea class="general__input" name="" id="" cols="30" rows="5" placeholder="Mensaje"></textarea>
+						  </div>
+						  <div>
+						  	<button class="btn btn-primary btn-block" type="submit">Enviar</button>
+						  </div>
 					</form>
+				</div>
+				<div class="col-md-4">
+					<h1>Mauricio Hidalgo</h1>
+					<h2>Ingeniero de Proyectos</h2>
+					<p>mhidalgo@e-manager.com.co</p>
+					<p>(+57) 321 783 45 70</p>
 				</div>
 			</div>
 		</div>
