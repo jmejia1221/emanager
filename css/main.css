@@ -195,6 +195,9 @@ a:hover {
 .margin__top--100 {
   margin-top: 120px;
 }
+.margin__right--5 {
+  margin-right: 5px;
+}
 @media (max-width: 600px) {
   .margin__top--10 {
     margin-top: 10px;
@@ -238,8 +241,8 @@ a:hover {
   background-image: url("../../images/promo2.jpg");
 }
 .page--wraper {
-  margin-top: 100px;
-  min-height: 600px;
+  margin-top: 50px;
+  min-height: 550px;
 }
 @media (max-width: 600px) {
   .page--wraper {
@@ -443,6 +446,19 @@ a:hover {
 }
 .contact__footer:hover {
   text-decoration: underline;
+}
+.contact__datos {
+  background-color: #fff;
+  padding: 10px 20px;
+  font-size: 0.9em;
+  margin-top: 80px;
+  border: 1px solid #ccc;
+}
+@media (max-width: 900px) {
+  .contact__datos {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
 }
 .owl-controls {
   position: absolute;
