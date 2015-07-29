@@ -85,6 +85,8 @@ a
 		border 1px solid #ccc
 		background-color #fff
 		width 100%
+		margin-bottom 5px
+		font-size .9em
 		padding 5px
 @media (max-width:600px)
 	.btn
@@ -137,6 +139,18 @@ a
 		color $colorWhite
 	&--grayDark
 		color $grayDark
+	&--slide
+		color $colorWhite
+		position absolute
+		text-align center
+		font-weight bold
+		font-size 3em
+		top 75%
+		left 50%
+		width 350px
+		height 120px
+		margin-top -60px
+		margin-left -175px
 @media (max-width: 600px)
 	.title
 		&--minismall
@@ -196,7 +210,15 @@ a
 		background-image url('../../images/promo1.jpg')
 	&--sostenible
 		background-image url('../../images/promo2.jpg')
-		
+	
+.page
+	&--wraper	
+		margin-top 100px
+		min-height 600px
+@media (max-width: 600px)
+	.page
+		&--wraper
+			margin-top 80px
 	
 // PERSONALIZED CLASS
 
@@ -233,6 +255,10 @@ a
 		position absolute
 		left 22vw
 		top 25vh
+	&--contacto
+		max-height 300px
+		overflow hidden
+		position relative
 @media (max-width: 600px)
 	.slide
 		position relative
