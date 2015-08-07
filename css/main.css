@@ -240,6 +240,10 @@ a:hover {
 .bg--sostenible {
   background-image: url("../../images/promo2.jpg");
 }
+.page__contact--wraper {
+  margin-top: 50px;
+  min-height: 350px;
+}
 .page--wraper {
   margin-top: 50px;
   min-height: 550px;
