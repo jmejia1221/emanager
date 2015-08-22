@@ -276,7 +276,7 @@ Main Components
 }
 @media only screen and (min-width: 1024px) {
   .cd-title {
-    top: 50vh;
+    top: 45vh;
     width: 50vw;
     opacity: 0;
     -webkit-transform: translateY(-50%) translateX(-20px);
@@ -320,7 +320,7 @@ Main Components
   padding: 4em 0;
   cursor: auto;
   background-color: #ffffff;
-  color: #3f538e;
+  color: #222;
   -webkit-transition: opacity 0.4s 0s, visibility 0s 0.4s;
   -moz-transition: opacity 0.4s 0s, visibility 0s 0.4s;
   transition: opacity 0.4s 0s, visibility 0s 0.4s;
@@ -328,12 +328,6 @@ Main Components
 .is-full-width .cd-project-info {
   visibility: visible;
   opacity: 1;
-}
-.cd-project-info p {
-  width: 90%;
-  max-width: 800px;
-  margin: 0 auto;
-  line-height: 2;
 }
 @media only screen and (min-width: 1024px) {
   .cd-project-info {

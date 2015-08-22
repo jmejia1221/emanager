@@ -240,6 +240,10 @@ a:hover {
 .bg--sostenible {
   background-image: url("../../images/promo2.jpg");
 }
+.bg--title__energia {
+  color: #fff;
+  padding-bottom: 30px;
+}
 .page__contact--wraper {
   margin-top: 50px;
   min-height: 350px;
@@ -252,6 +256,9 @@ a:hover {
   .page--wraper {
     margin-top: 80px;
   }
+}
+.group--parrafo {
+  padding: 30px 40px;
 }
 .logo {
   width: 180px;
